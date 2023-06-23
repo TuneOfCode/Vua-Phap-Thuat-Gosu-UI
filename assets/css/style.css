@@ -475,8 +475,8 @@ table {
   --pc-menuItem-color--highlight--hover: red;
   --mb-logoVpt-w: 17.333vw;
   --mb-logoVpt-h: 17.333vw;
-  --mb-bg-header: url("../../images/frame1/mb-bg-header.png");
-  --mb-bg-collapse-header: url("../../images/frame1/mb-bg-collapse-header.png");
+  --mb-bg-header: url("../images/frame1/mb-bg-header.png");
+  --mb-bg-collapse-header: url("../images/frame1/mb-bg-collapse-header.png");
   --mb-button-header-color: #ffffff;
   --mb-button-header-bgcolor: #cb3a39;
   --mb-collapse-header-h: 101.467vw;
@@ -502,7 +502,7 @@ table {
   --pc-bg-sologan-h: 4.688vw;
   --mb-bg-sologan-w: 100vw;
   --mb-bg-sologan-h: 12vw;
-  --pc-bg-register: url("../../images/frame1/pc-bg-register.png");
+  --pc-bg-register: url("../images/frame1/pc-bg-register.png");
   --pc-bg-register-w: 32.083vw;
   --pc-bg-register-h: 7.031vw;
   --mb-bg-register-w: 82.133vw;
@@ -527,16 +527,16 @@ table {
   --pc-bg-giftcode-h: 6.302vw;
   --mb-bg-giftcode-w: 16vw;
   --mb-bg-giftcode-h: 16.133vw;
-  --pc-bg-giftcode: url("../../images/frame1/pc-bg-giftcode.png");
-  --pc-bg-menu-treo: url("../../images/frame1/pc-bg-menu-treo.png");
+  --pc-bg-giftcode: url("../images/frame1/pc-bg-giftcode.png");
+  --pc-bg-menu-treo: url("../images/frame1/pc-bg-menu-treo.png");
   --pc-bg-menu-treo-w: 16.458vw;
   --pc-bg-menu-treo-h: 29.375vw;
-  --pc-bg-download-game: url("../../images/frame1/pc-bg-button-downloadgame.png");
+  --pc-bg-download-game: url("../images/frame1/pc-bg-button-downloadgame.png");
   --pc-bg-download-game-w: 10.573vw;
   --pc-bg-download-game-h: 5.677vw;
   --pc-icon-download-game-w: 1.25vw;
   --pc-icon-download-game-h: ;
-  --pc-bg-button-treo: url("../../images/frame1/pc-bg-button-treo.png");
+  --pc-bg-button-treo: url("../images/frame1/pc-bg-button-treo.png");
   --pc-bg-button-treo-w: 10.573vw;
   --pc-bg-button-treo-h: 2.344vw;
   --pc-color-button-treo: #841816;
@@ -553,12 +553,12 @@ table {
   --pc-img-witch-h: 14.583vw;
   --pc-img-tornado-w: 16.875vw;
   --pc-img-tornado-h: 19.01vw;
-  --pc-bg-frame-joined-classroom: url("../../images/frame2/pc-frame-joined-classroom.png");
+  --pc-bg-frame-joined-classroom: url("../images/frame2/pc-frame-joined-classroom.png");
   --pc-bg-frame-joined-classroom-w: 36.771vw;
   --pc-bg-frame-joined-classroom-h: 7.24vw;
   --mb-bg-frame-joined-classroom-w: 94.133vw;
   --mb-bg-frame-joined-classroom-h: 18.533vw;
-  --pc-bg-text-joined-classroom: url("../../images/frame2/pc-bg-text-joined-classroom.png");
+  --pc-bg-text-joined-classroom: url("../images/frame2/pc-bg-text-joined-classroom.png");
   --pc-bg-text-joined-classroom-w: 35.208vw;
   --pc-bg-text-joined-classroom-h: 5.833vw;
   --mb-bg-text-joined-classroom-w: 90.133vw;
@@ -1234,7 +1234,7 @@ table {
   width: var(--pc-bg-progress-w);
 }
 .timeline-info__magicians-item {
-  background: url("../../images/frame2/pc-bg-info-magician.png");
+  background: url("../images/frame2/pc-bg-info-magician.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: var(--pc-bg-magician-item-w);
@@ -1252,7 +1252,7 @@ table {
   font-size: 1.8vw;
 }
 .joined-classroom__timeline-progress {
-  background: url("../../images/frame2/pc-bg-progress.png");
+  background: url("../images/frame2/pc-bg-progress.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: var(--pc-bg-progress-w);
@@ -1357,7 +1357,7 @@ table {
   width: 20%;
 }
 .pointer__1--active .timeline-info__magicians-item:nth-child(1) {
-  background: url("../../images/frame2/pc-bg-info-magician-active.png");
+  background: url("../images/frame2/pc-bg-info-magician-active.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: var(--pc-bg-magician-item-w);
@@ -1381,7 +1381,7 @@ table {
 }
 .pointer__2--active .timeline-info__magicians-item:nth-child(1),
 .pointer__2--active .timeline-info__magicians-item:nth-child(2) {
-  background: url("../../images/frame2/pc-bg-info-magician-active.png");
+  background: url("../images/frame2/pc-bg-info-magician-active.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: var(--pc-bg-magician-item-w);
@@ -1407,7 +1407,7 @@ table {
 .pointer__3--active .timeline-info__magicians-item:nth-child(1),
 .pointer__3--active .timeline-info__magicians-item:nth-child(2),
 .pointer__3--active .timeline-info__magicians-item:nth-child(3) {
-  background: url("../../images/frame2/pc-bg-info-magician-active.png");
+  background: url("../images/frame2/pc-bg-info-magician-active.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: var(--pc-bg-magician-item-w);
@@ -1435,7 +1435,7 @@ table {
 .pointer__4--active .timeline-info__magicians-item:nth-child(2),
 .pointer__4--active .timeline-info__magicians-item:nth-child(3),
 .pointer__4--active .timeline-info__magicians-item:nth-child(4) {
-  background: url("../../images/frame2/pc-bg-info-magician-active.png");
+  background: url("../images/frame2/pc-bg-info-magician-active.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: var(--pc-bg-magician-item-w);
@@ -1456,7 +1456,7 @@ table {
 .pointer__endpoint--active .timeline-info__magicians-item:nth-child(2),
 .pointer__endpoint--active .timeline-info__magicians-item:nth-child(3),
 .pointer__endpoint--active .timeline-info__magicians-item:nth-child(4) {
-  background: url("../../images/frame2/pc-bg-info-magician-active.png");
+  background: url("../images/frame2/pc-bg-info-magician-active.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: var(--pc-bg-magician-item-w);
@@ -1561,7 +1561,7 @@ table {
     width: var(--mb-bg-progress-w);
   }
   .timeline-info__magicians-item {
-    background: url("../../images/frame2/pc-bg-info-magician.png");
+    background: url("../images/frame2/pc-bg-info-magician.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: var(--mb-bg-magician-item-w);
@@ -1579,7 +1579,7 @@ table {
     font-size: 4.8vw;
   }
   .joined-classroom__timeline-progress {
-    background: url("../../images/frame2/pc-bg-progress.png");
+    background: url("../images/frame2/pc-bg-progress.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: var(--mb-bg-progress-w);
@@ -1658,7 +1658,7 @@ table {
     width: 20%;
   }
   .pointer__1--active .timeline-info__magicians-item:nth-child(1) {
-    background: url("../../images/frame2/pc-bg-info-magician-active.png");
+    background: url("../images/frame2/pc-bg-info-magician-active.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: var(--mb-bg-magician-item-w);
@@ -1682,7 +1682,7 @@ table {
   }
   .pointer__2--active .timeline-info__magicians-item:nth-child(1),
   .pointer__2--active .timeline-info__magicians-item:nth-child(2) {
-    background: url("../../images/frame2/pc-bg-info-magician-active.png");
+    background: url("../images/frame2/pc-bg-info-magician-active.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: var(--mb-bg-magician-item-w);
@@ -1708,7 +1708,7 @@ table {
   .pointer__3--active .timeline-info__magicians-item:nth-child(1),
   .pointer__3--active .timeline-info__magicians-item:nth-child(2),
   .pointer__3--active .timeline-info__magicians-item:nth-child(3) {
-    background: url("../../images/frame2/pc-bg-info-magician-active.png");
+    background: url("../images/frame2/pc-bg-info-magician-active.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: var(--mb-bg-magician-item-w);
@@ -1736,7 +1736,7 @@ table {
   .pointer__4--active .timeline-info__magicians-item:nth-child(2),
   .pointer__4--active .timeline-info__magicians-item:nth-child(3),
   .pointer__4--active .timeline-info__magicians-item:nth-child(4) {
-    background: url("../../images/frame2/pc-bg-info-magician-active.png");
+    background: url("../images/frame2/pc-bg-info-magician-active.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: var(--mb-bg-magician-item-w);
@@ -1757,7 +1757,7 @@ table {
   .pointer__endpoint--active .timeline-info__magicians-item:nth-child(2),
   .pointer__endpoint--active .timeline-info__magicians-item:nth-child(3),
   .pointer__endpoint--active .timeline-info__magicians-item:nth-child(4) {
-    background: url("../../images/frame2/pc-bg-info-magician-active.png");
+    background: url("../images/frame2/pc-bg-info-magician-active.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: var(--mb-bg-magician-item-w);
@@ -2414,7 +2414,7 @@ table {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  background: url("../../images/frame4/pc-bg-screen-slide.png");
+  background: url("../images/frame4/pc-bg-screen-slide.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: var(--pc-bg-screen-slide-w);
@@ -2434,7 +2434,7 @@ table {
   left: 22%;
 }
 .area-button-slide___item {
-  background: url("../../images/frame4/pc-bg-button-slide.png");
+  background: url("../images/frame4/pc-bg-button-slide.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   display: flex;
@@ -2448,7 +2448,7 @@ table {
   z-index: 1;
 }
 .area-button-slide___item--active {
-  background: url("../../images/frame4/pc-bg-button-slide-active.png");
+  background: url("../images/frame4/pc-bg-button-slide-active.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   color: white;
@@ -2483,7 +2483,7 @@ table {
     top: 45%;
     left: 50%;
     transform: translateX(-50%);
-    background: url("../../images/frame4/mb-bg-screen-slide.png");
+    background: url("../images/frame4/mb-bg-screen-slide.png");
     background-repeat: no-repeat;
     background-size: 100% auto;
     width: var(--mb-bg-screen-slide-w);
@@ -2564,7 +2564,7 @@ table {
   transform: translateX(-50%);
 }
 .frame5__buttons-item {
-  background: url("../../images/frame5/pc-bg-button.png");
+  background: url("../images/frame5/pc-bg-button.png");
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: 7.344vw;
@@ -3033,7 +3033,7 @@ table {
   background-color: #33333380;
 }
 .popup__content {
-  /* background: url(../../images/popup/pc-bg-popup.png);
+  /* background: url(../images/popup/pc-bg-popup.png);
   background-repeat: no-repeat;
   background-size: 100% auto; */
   background-color: #c3e7f8;
