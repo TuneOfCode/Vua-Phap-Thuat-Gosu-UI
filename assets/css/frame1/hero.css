@@ -1,0 +1,35 @@
+/* Hero */
+.frame1__hero {
+  width: 100%;
+}
+.frame1__hero img:first-child {
+  position: absolute;
+  top: 9%;
+  left: 55.2%;
+  width: var(--pc-comming-soon-w);
+  height: var(--pc-comming-soon-h);
+}
+.frame1__hero img:last-child {
+  position: absolute;
+  top: 9%;
+  left: 75.2%;
+  width: var(--pc-fire-ball-w);
+  height: var(--pc-fire-ball-h);
+  animation: jump 1.5s linear infinite;
+}
+/* Mobile Hero */
+@media only screen and (max-width: 768px) {
+  .frame1__hero {
+    width: 100%;
+  }
+  .frame1__hero img:first-child {
+    position: absolute;
+    top: 13%;
+    left: 64.2%;
+    width: var(--mb-comming-soon-w);
+    height: var(--mb-comming-soon-h);
+  }
+  .frame1__hero img:last-child {
+    display: none;
+  }
+}

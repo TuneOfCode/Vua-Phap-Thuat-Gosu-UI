@@ -1,0 +1,25 @@
+.frame4__content {
+  font-family: "UTML Cafeta", sans-serif;
+}
+.frame4__left {
+  position: absolute;
+  top: -28%;
+  left: 1%;
+}
+.frame4__left img:first-child {
+  position: absolute;
+  width: var(--pc-img-angle-plus-w);
+  height: var(--pc-img-angle-plus-h);
+}
+.frame4__left img:last-child {
+  position: absolute;
+  top: 0;
+  left: 2%;
+  width: var(--pc-img-angle-w);
+  height: var(--pc-img-angle-h);
+}
+@media only screen and (max-width: 768px) {
+  .frame4__left {
+    display: none;
+  }
+}

@@ -1,0 +1,30 @@
+.frame2__image-hero {
+  width: var(--pc-img-hero-w);
+  height: var(--pc-img-hero-h);
+  position: absolute;
+  left: 0;
+  top: -6%;
+  z-index: 9;
+}
+.frame2__image-hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.frame2__image-hero-mobile {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .frame2__image-hero {
+    display: none;
+  }
+  .frame2__image-hero-mobile {
+    width: var(--mb-img-hero-w);
+    height: var(--mb-img-hero-h);
+  }
+  .frame2__image-hero-mobile img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

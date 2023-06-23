@@ -1,0 +1,30 @@
+.frame2__image-animate {
+  position: absolute;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+}
+.frame2__image-animate img:nth-child(1) {
+  width: var(--pc-img-lightning-w);
+  height: var(--pc-img-lightning-h);
+}
+.frame2__image-animate img:nth-child(2) {
+  width: var(--pc-img-witch-w);
+  height: var(--pc-img-witch-h);
+  position: absolute;
+  top: 93%;
+  z-index: 9;
+}
+.frame2__image-animate img:nth-child(3) {
+  width: var(--pc-img-tornado-w);
+  height: var(--pc-img-tornado-h);
+  position: absolute;
+  top: 90%;
+  right: 2%;
+}
+@media only screen and (max-width: 768px) {
+  .frame2__image-animate {
+    display: none;
+  }
+}

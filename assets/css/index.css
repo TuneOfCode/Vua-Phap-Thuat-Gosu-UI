@@ -1,0 +1,26 @@
+/* General Import */
+@import url("../css/__global.css");
+@import url("../css/__layout.css");
+@import url("../css/__variables.css");
+@import url("../css/__animate.css");
+
+/* Frame1 */
+@import url("./frame1/_frame1.css");
+
+/* Frame2 */
+@import url("./frame2/_frame2.css");
+
+/* Frame3 */
+@import url("./frame3/_frame3.css");
+
+/* Frame4 */
+@import url("./frame4/_frame4.css");
+
+/* Frame5 */
+@import url("./frame5/_frame5.css");
+
+/* Footer */
+@import url("./footer.css");
+
+/* Popup */
+@import url("./popup/_popup.css");

@@ -1,0 +1,140 @@
+/* .unauthorized .frame3__content-register-classroom {
+  display: none !important;
+} */
+.register-classroom__area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.register-classroom__area-content {
+  margin: 2% 2%;
+  background-color: #4580b4;
+  padding: 1vw;
+  border: 1px solid white;
+  color: white;
+  position: relative;
+  height: 30.938vw;
+}
+.area-content__title {
+  color: #fbef6e;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2vw;
+  padding-bottom: 1vw;
+}
+.area-content__table {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 1.5vw;
+  overflow-y: auto;
+  height: 80%;
+  position: relative;
+}
+.area-content__table thead {
+  position: sticky;
+  top: -1%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  padding-bottom: 2vw;
+  background-color: #4580b4;
+}
+.area-content__table::-webkit-scrollbar {
+  width: 1vw;
+}
+.area-content__table table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+.area-content__table th {
+  padding: 0 1vw;
+}
+.area-content__table-join {
+  background-color: #fbef6e;
+  color: #4580b4;
+  border: 1px solid #4580b4;
+  padding: 0.3vw 1vw;
+  margin: 0.1vw 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.area-content__paginate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 2%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  font-size: 1.5vw;
+}
+.area-content__paginate-first,
+.area-content__paginate-prev,
+.area-content__paginate-next,
+.area-content__paginate-last,
+.area-content__paginate-number {
+  margin: 0 1%;
+}
+.area-content__paginate-first,
+.area-content__paginate-prev,
+.area-content__paginate-next,
+.area-content__paginate-last {
+  cursor: pointer;
+}
+.frame3__area-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+.area-button__item {
+  margin: 0 2%;
+  color: white;
+  text-transform: uppercase;
+  border-radius: 3px;
+  background-color: #cb3a39;
+  padding: 1vw 3vw;
+  cursor: pointer;
+  font-size: 1.5vw;
+}
+@media only screen and (max-width: 768px) {
+  .frame3__content {
+    position: relative;
+    top: 8%;
+  }
+  .register-classroom__area-content {
+    height: 79.2vw;
+  }
+  .area-content__title {
+    font-size: 4vw;
+    padding-bottom: 2vw;
+  }
+  .area-content__table {
+    font-size: 3.5vw;
+  }
+  .area-content__paginate {
+    bottom: 4%;
+    font-size: 3vw;
+  }
+  .area-content__table-join {
+    margin: 0.5vw 0;
+  }
+  .frame3__area-button {
+    margin-top: 10%;
+  }
+  .area-button__item {
+    margin: 0 3%;
+    color: white;
+    text-transform: uppercase;
+    border-radius: 3px;
+    background-color: #cb3a39;
+    padding: 2vw 6vw;
+    cursor: pointer;
+    font-size: 4vw;
+  }
+}

@@ -1,0 +1,114 @@
+.frame1__menu-treo {
+  position: fixed;
+  right: -14%; /* 2% */
+  top: 42%;
+  background: var(--pc-bg-menu-treo);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: var(--pc-bg-menu-treo-w);
+  height: var(--pc-bg-menu-treo-h);
+  font-family: "UTML Cafeta";
+  text-transform: uppercase;
+  z-index: 99;
+}
+.frame1__menu-treo-content {
+  position: relative;
+  width: var(--pc-bg-menu-treo-w);
+  height: var(--pc-bg-menu-treo-h);
+}
+.frame1__menu-treo-download-game,
+.frame1__menu-treo-item {
+  position: absolute;
+  left: 5%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.frame1__menu-treo-download-game {
+  background: var(--pc-bg-download-game);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: var(--pc-bg-download-game-w);
+  height: var(--pc-bg-download-game-h);
+  top: -8%;
+  font-size: 2vw;
+  color: var(--pc-color-button-treo);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.frame1__menu-treo-download-game img {
+  width: var(--pc-icon-download-game-w);
+  height: var(--pc-icon-download-game-h);
+  margin-top: 0.2vw;
+}
+.frame1__menu-treo-item {
+  background: var(--pc-bg-button-treo);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  width: var(--pc-bg-button-treo-w);
+  height: var(--pc-bg-button-treo-h);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 1vw;
+  cursor: pointer;
+}
+.menu-treo___register {
+  top: 20%;
+}
+.menu-treo___recharge-card {
+  top: 38%;
+}
+.menu-treo___recharge-gold {
+  top: 56%;
+}
+.menu-treo___giftcode {
+  top: 74%;
+}
+.frame1__menu-treo-top {
+  position: absolute;
+  top: 92%;
+  left: 5%;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+}
+.frame1__menu-treo-top img {
+  width: var(--pc-icon-top-w);
+  height: var(--pc-icon-top-h);
+}
+.frame1__menu-treo-top span {
+  font-size: 1vw;
+  color: white;
+  text-align: center;
+}
+.frame1__menu-treo-arrow {
+  position: absolute;
+  top: 50%;
+  left: -10%;
+  width: var(--pc-icon-arrow-w);
+  height: var(--pc-icon-arrow-w);
+  cursor: pointer;
+}
+.frame1__menu-treo-arrow img {
+  width: 100%;
+  height: 100%;
+}
+.collapse {
+  right: -14%;
+}
+/* Mobile menu treo */
+@media only screen and (max-width: 768px) {
+  .frame1__menu-treo {
+    display: none;
+  }
+}

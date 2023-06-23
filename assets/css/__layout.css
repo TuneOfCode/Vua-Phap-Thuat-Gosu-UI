@@ -1,0 +1,148 @@
+/* Primary Size */
+:root {
+  /**
+  pc-frame1: 817-0 = 817px = 42.552vw
+  pc-frame2: 1633-817 = 816px = 42.5vw
+  pc-frame3: 2686-1633 = 1053px = 54.844vw
+  pc-frame4: 3481-2686 = 795px = 41.406vw
+  pc-frame5: 3850-3481 = 369px = 19.219vw
+  pc-footer: 4162-3850 = 312px = 16.25vw
+  pc-total: 4162px = 216.771vw
+
+  mb-frame1: 868-0 = 868px = 115.733vw
+  mb-frame2: 1684-868 = 816px = 108.8vw
+  mb-frame3: 3310-1684 = 1626px = 216.8vw
+  mb-frame4: 4482-3310 = 1172px = 156.267vw
+  mb-frame5: 4850-4482 = 368px = 49.067vw
+  mb-footer: 5217-4850 = 367px = 48.933vw
+  mb-total: 5217px = 695.6vw
+  */
+  --pc-max-h: 216.771vw;
+  --mb-max-h: 695.6vw;
+  --frame1-pc-h: 42.552vw;
+  --frame2-pc-h: 42.5vw;
+  --frame3-pc-h: 54.844vw;
+  --frame4-pc-h: 41.406vw; /** 60.625vw **/
+  --frame5-pc-h: 19.219vw;
+  --footer-pc-h: 16.25vw;
+  --frame1-mb-h: 115.733vw;
+  --frame2-mb-h: 108.8vw;
+  --frame3-mb-h: 216.8vw;
+  --frame4-mb-h: 156.267vw; /* 216.8vw 205.333vw */
+  --frame5-mb-h: 49.067vw;
+  --footer-mb-h: 48.933vw;
+  --pc-bg-all: url("../images/pc-bg-all.png");
+  --mb-bg-all: url("../images/mb-bg-all.png");
+  /*  ----- */
+  --header-mb-h: 7.467vw;
+  --logo-pc-w: 8.958vw;
+  --logo-pc-h: 4.323vw;
+  --logo-mb-w: 18.771vw;
+  --logo-mb-h: 18.771vw;
+  --navbar-w: 27.865vw;
+  --navbar-h: 1.198vw;
+  --video-pc-w: 2.396vw;
+  --video-pc-h: 2.396vw;
+  --video-mb-w: 5.604vw;
+  --video-mb-h: 5.604vw;
+  --logoHero-pc-w: 6.5vw;
+  --logoHero-pc-h: 6.5vw;
+  --logoHero-mb-w: 20.938vw;
+  --logoHero-mb-h: 20.938vw;
+}
+/* Layout Size */
+.pc {
+  display: block !important;
+}
+.mobile {
+  display: none !important;
+}
+.show {
+  display: block !important;
+}
+.main-app {
+  background: var(--pc-bg-all);
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  position: relative;
+  overflow-x: hidden;
+  max-height: var(--pc-max-h);
+}
+.frame1,
+.frame2,
+.frame3,
+.frame4,
+.frame5,
+.footer {
+  position: relative;
+}
+.frame1 {
+  height: var(--frame1-pc-h);
+}
+.frame2 {
+  height: var(--frame2-pc-h);
+}
+.frame3 {
+  height: var(--frame3-pc-h);
+}
+.frame4 {
+  height: var(--frame4-pc-h);
+}
+.frame5 {
+  height: var(--frame5-pc-h);
+}
+.footer {
+  height: var(--footer-pc-h);
+  /* calc(
+    var(--pc-max-h) - var(--frame1-pc-h) - var(--frame2-pc-h) -
+      var(--frame3-pc-h) - var(--frame4-pc-h) - var(--frame5-pc-h)
+  ); */
+}
+@media only screen and (max-width: 768px) {
+  .pc {
+    display: none !important;
+  }
+  .mobile {
+    display: block !important;
+  }
+  .main-app {
+    background: var(--mb-bg-all);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100% auto;
+    position: relative;
+    overflow-x: hidden;
+    max-height: var(--mb-max-h);
+  }
+  .frame1,
+  .frame2,
+  .frame3,
+  .frame4,
+  .frame5,
+  .footer {
+    position: relative;
+  }
+  .frame1 {
+    height: var(--frame1-mb-h);
+  }
+  .frame2 {
+    height: var(--frame2-mb-h);
+  }
+  .frame3 {
+    height: var(--frame3-mb-h);
+  }
+  .frame4 {
+    height: var(--frame4-mb-h);
+  }
+  .frame5 {
+    height: var(--frame5-mb-h);
+  }
+  .footer {
+    height: var(--footer-mb-h);
+    /* calc(
+      var(--mb-max-h) - var(--frame1-mb-h) - var(--frame2-mb-h) -
+        var(--frame3-mb-h) - var(--frame4-mb-h) - var(--frame5-mb-h)
+    ); */
+  }
+}

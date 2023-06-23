@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* reset css */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "ChinaCatTeddyBear";
+  src: url("../fonts/000ChinacatTeddyBear.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "belixProTB";
+  src: url("../fonts//000ObelixProTB.ttf") format("truetype");
+}
+@font-face {
+  font-family: "UTML Cafeta";
+  src: url("../fonts/UTM\ Cafeta.ttf") format("truetype");
+}
+@font-face {
+  font-family: "SignLanguage";
+  src: url("../fonts/000\ SignLanguage\ TB.ttf") format("truetype");
+}
+
+/* Global */
+/* Content */
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 1.042vw;
+}
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.container-fluid {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.container-fluid::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* Size */
+.xs {
+  max-width: 540px;
+}
+.sm {
+  max-width: 750px;
+}
+.md {
+  max-width: 960px;
+}
+.lg {
+  max-width: 1140px;
+}
+.xl {
+  max-width: 1320px;
+}
+
+.row {
+  width: 100%;
+  margin: 0 auto;
+}
+.col-1 {
+  width: 8.33%;
+  float: left;
+}
+.col-2 {
+  width: 16.66%;
+  float: left;
+}
+.col-3 {
+  width: 25%;
+  float: left;
+}
+.col-4 {
+  width: 33.33%;
+  float: left;
+}
+.col-5 {
+  width: 41.66%;
+  float: left;
+}
+.col-6 {
+  width: 50%;
+  float: left;
+}
+.col-7 {
+  width: 58.33%;
+  float: left;
+}
+.col-8 {
+  width: 66.66%;
+  float: left;
+}
+.col-9 {
+  width: 75%;
+  float: left;
+}
+.col-10 {
+  width: 83.33%;
+  float: left;
+}
+.col-11 {
+  width: 91.66%;
+  float: left;
+}
+.col-12 {
+  width: 100%;
+  float: left;
+}
+
+/* Grid */
+.grid-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+}
+.grid-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1rem;
+}
+.grid-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1rem;
+}
+.grid-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-gap: 1rem;
+}
+.grid-6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 1rem;
+}
+
+/* Item component */
+.btn {
+  padding: 0.456vw 1.4vw;
+  width: 9vw;
+  border-radius: 5px;
+  cursor: pointer;
+  border: none;
+  text-align: center;
+  font-size: 1.77vw;
+}
+.btn-primary {
+  background-color: #cb3a39;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: "UTML Cafeta", sans-serif;
+}
+.btn-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cb3a39;
+  color: #fff;
+  width: 4.563vw;
+}
+@media only screen and (max-width: 1023px) {
+  .btn {
+    padding: 1vw;
+    width: 14vw;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+    text-align: center;
+    font-size: 2.8vw;
+  }
+  .btn-icon {
+    width: 5vw;
+    cursor: pointer;
+  }
+}

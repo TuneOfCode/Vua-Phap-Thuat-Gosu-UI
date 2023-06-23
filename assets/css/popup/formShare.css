@@ -1,0 +1,124 @@
+.form-share__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 40vw;
+  color: #1d6283;
+  margin-top: 20%;
+  font-size: 1.2vw;
+  z-index: 1;
+}
+.form-share__body-noti {
+  font-family: "UTML Cafeta", sans-serif;
+  font-size: 1.5vw;
+}
+.form-share__body-content {
+  margin-top: 2vw;
+}
+.body-content__input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 34.427vw;
+  height: 3.281vw;
+  margin-left: 2vw;
+  position: relative;
+}
+.body-content__input input {
+  outline: none;
+  width: 100%;
+  padding: 1vw 0.75vw;
+  border: 2px solid #1d6283;
+  background-color: transparent;
+  cursor: text;
+  color: #1d6283;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 1.5vw;
+  font-family: "UTML Cafeta", sans-serif;
+}
+.body-content__input span {
+  position: absolute;
+  top: -40%;
+  left: 45%;
+  transform: translateX(-50%);
+  user-select: none;
+  color: #1d6283;
+  font-size: 1.5vw;
+  background-color: #c3e7f8;
+  padding: 0 1vw;
+}
+.input__button-copy {
+  /* position: absolute; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* width: 5.833vw;
+  height: 5vw; */
+  width: 6vw;
+  height: 4.2vw;
+  font-size: 1.5vw;
+  text-transform: uppercase;
+  right: 0;
+  background-color: #1d6283;
+  color: white;
+  border: 1px solid #1d6283;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .form-share__body {
+    width: 40vw;
+    margin-top: 30%;
+    font-size: 3vw;
+  }
+  .form-share__body-noti {
+    font-size: 3vw;
+  }
+  .body-content__input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    height: 6vw;
+    margin-left: 2vw;
+    position: relative;
+  }
+  .body-content__input input {
+    outline: none;
+    width: 100%;
+    padding: 2vw 4vw;
+    font-size: 3vw;
+  }
+  .body-content__input span {
+    position: absolute;
+    top: -40%;
+    left: 45%;
+    transform: translateX(-50%);
+    user-select: none;
+    color: #1d6283;
+    font-size: 3vw;
+    background-color: #c3e7f8;
+    padding: 0 1vw;
+  }
+  .input__button-copy {
+    /* position: absolute; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 5.833vw;
+    height: 5vw; */
+    width: 15vw;
+    height: 8.4vw;
+    font-size: 3vw;
+    text-transform: uppercase;
+    right: 0;
+    background-color: #1d6283;
+    color: white;
+    border: 1px solid #1d6283;
+    cursor: pointer;
+  }
+}

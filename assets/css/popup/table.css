@@ -1,0 +1,97 @@
+.notification__content,
+.table__body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 35.417vw;
+  height: 28vw;
+  margin-left: 5vw;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.content-body__table-approve {
+  height: 25vw !important;
+}
+.table__body table {
+  font-size: 1.2vw;
+  width: 100%;
+  border-collapse: collapse;
+  color: #1d6283;
+}
+.table__body thead {
+  position: sticky;
+  top: -1%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  background-color: #c3e7f8;
+  text-transform: uppercase;
+}
+.table__body::-webkit-scrollbar {
+  width: 1vw;
+}
+.table__body td:nth-child(1),
+.table__body td:nth-child(4) {
+  text-align: left;
+}
+.table__body td:nth-child(2),
+.table__body td:nth-child(3) {
+  text-align: center;
+}
+.table__body td:nth-child(5) {
+  display: flex;
+  justify-content: flex-end;
+}
+.content-body__table-approve td {
+  padding: 0.3vw 0 !important;
+}
+.popup__list-classroom td {
+  padding: 0.5vw 0 !important;
+}
+.table__body tbody td {
+  padding: 0.1vw 0;
+}
+.table__body-button {
+  width: 10vw;
+  height: 1.667vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  background-color: #1d6283;
+  text-transform: uppercase;
+  color: white;
+  border: 1px solid #1d6283;
+  padding: 1vw 1.5vw;
+  margin: 0.1vw 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .content-body__table-approve {
+    width: 80vw !important;
+    height: 50vw !important;
+    margin-left: 9vw !important;
+  }
+  .table__body {
+    width: 80vw;
+    height: 50vw;
+    margin-left: 9vw;
+  }
+  .table__body table {
+    font-size: 3vw;
+  }
+  .table__body-button {
+    width: 20vw;
+    height: 2vw;
+    border: 1px solid #1d6283;
+    padding: 2vw 3vw;
+    margin: 0.2vw 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 3vw;
+  }
+}
