@@ -101,6 +101,15 @@ btnToggleMenuTreo.addEventListener("click", () => {
   }
 });
 
+// Nút cuộn lên đầu trang
+const btnScrollTop = document.querySelector(".frame1__menu-treo-top");
+btnScrollTop.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
+
 /**
  * Frame3
  */
