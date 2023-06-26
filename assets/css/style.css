@@ -2107,8 +2107,8 @@ table {
   font-size: 1.5vw;
 }
 @media only screen and (max-width: 768px) {
-  .frame3__content {
-    position: relative;
+  .frame3__content-register-classroom {
+    position: absolute;
     top: 8%;
   }
   .register-classroom__area-content {
