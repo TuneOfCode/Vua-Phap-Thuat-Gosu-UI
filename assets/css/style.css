@@ -377,6 +377,9 @@ table {
 .show {
   display: block !important;
 }
+.show-flex {
+  display: flex !important;
+}
 .main-app {
   background: var(--pc-bg-all);
   background-color: black;
@@ -1029,7 +1032,7 @@ table {
 /* Frame1-Menu  */
 .frame1__menu-treo {
   position: fixed;
-  right: -14%; /* 2% */
+  right: 2%; /* -14% */
   top: 42%;
   background: var(--pc-bg-menu-treo);
   background-repeat: no-repeat;
@@ -1839,8 +1842,12 @@ table {
 .frame3 {
   font-family: "UTML Cafeta", sans-serif;
 }
-.unauthorized .frame3__content-login {
+/* .unauthorized .frame3__content-login {
   display: none !important;
+} */
+.frame3__content-register-classroom,
+.frame3__content-my-classroom {
+  display: none;
 }
 .frame3___title {
   font-size: 2vw;
@@ -1868,7 +1875,7 @@ table {
   border: none;
   padding: 1vw;
   border-radius: 3px;
-  font-size: 1vw;
+  font-size: 1.5vw;
   font-family: "UTML Cafeta", sans-serif;
   text-align: center;
 }
